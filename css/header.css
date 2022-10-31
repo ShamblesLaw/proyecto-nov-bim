@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
   }
   
 header{
@@ -30,7 +31,6 @@ header .logo{
     text-decoration: none;
 } 
 
-  
 .logo img{
     display: flex;
     width: 1em;
