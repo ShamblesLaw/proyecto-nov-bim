@@ -28,7 +28,7 @@ input::placeholder, textarea::placeholder {
     background-color: rgb(255, 255, 255);
     padding: 30px;
     width: 530px;
-    height: 380px;
+    height: 430px;
     margin: 50px auto 100px auto;
     box-shadow: #000000  0px 1px 5px 0px ;
     border-radius: 10px;
