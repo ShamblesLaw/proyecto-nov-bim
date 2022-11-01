@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans'
   }
   
 header{
@@ -64,8 +67,11 @@ header ul li a{
     transition: 0.7s;
 }
 
-header.abajo .logo,
 header.abajo ul li a{
     color: #000;
 }
 
+header.abajo .logo img{
+    content: url(../imgs/logo-bim-negro.png);
+    transition: 1s;
+}
