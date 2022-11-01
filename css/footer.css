@@ -70,22 +70,27 @@ footer{
     background: #000;
     width: 100vw;
     padding: 20px;
-  padding-bottom: 40px;
+    padding-bottom: 40px;
     text-align: center;
   }
   
   .footer-bottom p{
-  float: left;
+    float: left;
     font-size: 14px;
     word-spacing: 2px;
     text-transform: capitalize;
   }
   
   .footer-bottom p a{
-  color:white;
-  font-size: 16px;
-  text-decoration: none;
+    color:rgb(178, 178, 178);
+    font-size: 16px;
+    text-decoration: none;
   }
+
+  .footer-bottom p a:hover{
+    color: white;
+  }
+  
   
   .footer-bottom span{
     text-transform: uppercase;
@@ -94,25 +99,25 @@ footer{
   }
   
   .footer-menu{
-  float: right;
+    float: right;
   }
   
   .footer-menu ul{
-  display: flex;
+    display: flex;
   }
   
   .footer-menu ul li{
-  padding-right: 10px;
-  display: block;
+    padding-right: 10px;
+    display: block;
   }
   
   .footer-menu ul li a{
-  color: rgb(178, 178, 178);
-  text-decoration: none;
+    color: rgb(178, 178, 178);
+    text-decoration: none;
   }
   
   .footer-menu ul li a:hover{
-  color: white;
+    color: white;
   }
   
 @media (max-width:500px) {
@@ -120,5 +125,9 @@ footer{
       display: flex;
       margin-top: 10px;
       margin-bottom: 20px;
+    }
+
+    .footer-bottom p{
+      font-size: 11px;
     }
 }
