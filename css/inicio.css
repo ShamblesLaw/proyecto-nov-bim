@@ -10,11 +10,13 @@
 }
 
 .zona1 div{
+  color: white;
   text-align: center;
   padding-top: 300px;
 }
 
 .zona1 div h1{
+  
   font-size: 4em;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -24,6 +26,8 @@
   font-size: 2em;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+
 
 .presentacion{
   text-align: center;

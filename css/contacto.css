@@ -3,3 +3,137 @@
 header{
     background-color: black;
 }
+@import url(https://fonts.googleapis.com/css?family=Lato:100,300,400);
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+    color: #000000;
+    font-size: 0.875em;
+}
+
+
+
+
+
+input:focus::-moz-placeholder, textarea:focus::-moz-placeholder {
+  color: rgb(0, 0, 0);
+}
+
+input::placeholder, textarea::placeholder {
+  color: rgb(0, 0, 0);
+  font-size: 0.875em;
+}
+
+#form {
+  
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    width: 530px;
+    height: 380px;
+    margin: 50px auto 100px auto;
+    box-shadow: #000000  0px 1px 5px 0px ;
+    border-radius: 10px;
+    border:2px rgb(0, 0, 0);
+     
+    
+}
+
+input {
+    margin-top: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.875em;
+    width: 470px;
+    height: 50px;
+    padding: 0px 15px 0px 15px;
+    border-radius: 10px;
+    background: transparent;
+    outline: none;
+    color: #000000;
+    background-color: #fff;
+  
+    border: solid 2px rgb(131, 131, 131);
+  
+  
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+}
+
+input:hover {
+    background: #fff;
+  
+    color: #000000;
+    border: 0px rgb(228, 228, 228);
+    box-shadow: #000000  0px 1px 5px 0px ;
+}
+
+textarea {
+    border-radius: 10px;
+    margin-top: 10px;
+    width: 470px;
+    max-width: 470px;
+    height: 110px;
+    max-height: 110px;
+    padding: 15px;
+  
+    background: transparent;
+    outline: none;
+  
+    color: #000000;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.875em;
+    background-color: #fff;
+  
+    border: solid 2px rgb(131, 131, 131);
+  
+    transition: all 0.1s ease-in-out;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+}
+
+textarea:hover {
+  background: #ffffff;
+  
+  color: #000000;
+  border: #fff;
+  box-shadow: #000000  0px 1px 5px 0px ;
+}
+
+#submit {
+  width: 470px;
+  background-color: #fff;
+  
+  margin: 20px 0px 0px 0px;
+  
+  font-family: 'Lato', sans-serif;
+  font-size: 0.875em;
+  color: rgb(131, 131, 131);
+  
+  outline:none;
+  cursor: pointer;
+  
+  border: solid 2px rgb(131, 131, 131);
+  
+}
+
+#submit:hover {
+  color: #fff;
+  border: #fff;
+  background-color: #000;
+  box-shadow: #000000  0px 1px 5px 0px ;
+}
+main div {
+   padding-top: 25vh;
+   border: 2px #000;
+    box-shadow: #000000;
+    
+}
+main{
+    background: url(../imgs/wallpaper-contactos.jpg);    
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+  background-position: center center;
+}
+
